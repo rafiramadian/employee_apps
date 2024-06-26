@@ -1,0 +1,41 @@
+name: employee_apps
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  connectivity_plus: ^5.0.2
+  dio: ^5.4.3+1
+  equatable: ^2.0.5
+  flutter_bloc: ^8.1.6
+  flutter_secure_storage: ^9.0.0
+  get_it: ^7.6.7
+  google_fonts: ^4.0.4
+  intl: ^0.18.1
+  json_annotation: ^4.9.0
+  logging: ^1.0.2
+  flutter_screenutil: ^5.9.3
+  introduction_slider: ^2.0.1
+  carousel_slider: ^4.2.1
+  cached_network_image: ^3.3.1
+  skeleton_text: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.9
+  json_serializable: ^6.8.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logos/
+    - assets/illustrations/
+    - assets/images/
+
